@@ -10,4 +10,4 @@ modules:
 - nuclei
 - pgp
 - shodan_idb
-output_dir: "/home/teste/Documentos/bbot_cru/scans"
+output_dir: "/home/sec/Documentos/ImpBBOT/BBOT_implementation/scans"
