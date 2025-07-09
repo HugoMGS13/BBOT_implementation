@@ -1,9 +1,10 @@
 from bbot.scanner import Scanner, Preset
 async def main():
     scan = Scanner(
-        'app3.evilcorp.com',
+        'evilcorp.com',
+        name= "scan_domain_def",
         preset=Preset.from_yaml_file(
-            "/home/sec/Documentos/ImpBBOT/BBOT_implementation/scan_vuln.yml"
+            "/home/sec/Documentos/ImpBBOT/BBOT_implementation/scan_domain.yml"
         )
     )
     async for event in scan.async_start():
