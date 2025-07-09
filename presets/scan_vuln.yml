@@ -2,9 +2,9 @@ name: "Vulnerability-Scan"
 description: "Scan de explora\xE7\xE3o de dom\xEDnios em busca de vulnerabilidades"
 config:
   allow_deadly: true
+presets: nuclei-budget
 modules:
 - baddns
-- nuclei
 - pgp
 - shodan_idb
 output_dir: "/home/sec/Documentos/ImpBBOT/BBOT_implementation/scans"
