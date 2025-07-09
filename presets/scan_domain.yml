@@ -1,0 +1,22 @@
+name: "Domain-Scan"
+description: "Scan de explora\xE7\xE3o profunda de dom\xEDnios"
+config:
+  dns:
+    threads: 25
+    brute_threads: 1000
+  web:
+    spider_distance: 2
+    spider_depth: 4
+    spider_links_per_page: 25
+  allow_deadly: true
+flags:
+- subdomain-enum
+modules:
+- baddns
+- httpx
+- pgp
+- shodan_dns
+- shodan_idb
+output_dir: "/home/teste/Documentos/bbot_cru/scans"
+output_modules:
+- neo4j

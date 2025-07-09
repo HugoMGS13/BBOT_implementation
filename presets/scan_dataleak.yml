@@ -1,0 +1,13 @@
+name: "Data-Leak-Scan"
+description: "Scan de explora\xE7\xE3o de bases de dados buscando vazamentos de senhas"
+config:
+  modules:
+    dehashed:
+      api_key: 1SS44Jqy/hZD5IfQgDZ9HX4VkCJiM3f2b/QUt6xFreRN2LHNmpVGOMs=
+modules:
+- baddns
+- dehashed
+- pgp
+output_dir: "/home/teste/Documentos/bbot_cru/scans"
+output_modules:
+- neo4j

@@ -1,0 +1,13 @@
+name: "Vulnerability-Scan"
+description: "Scan de explora\xE7\xE3o de dom\xEDnios em busca de vulnerabilidades"
+config:
+  modules:
+    nuclei:
+      mode: budget
+  allow_deadly: true
+modules:
+- baddns
+- nuclei
+- pgp
+- shodan_idb
+output_dir: "/home/teste/Documentos/bbot_cru/scans"
