@@ -25,6 +25,7 @@ modules:
 - pgp
 - shodan_dns
 - shodan_idb
-output_dir: "/home/sec/Documentos/ImpBBOT/BBOT_implementation/scans"
+#output_dir: "/home/sec/Documentos/ImpBBOT/BBOT_implementation/scans"
+output_dir: "/home/teste/Documentos/BBOT_implementation/scans"
 output_modules:
 - neo4j
