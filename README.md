@@ -5,4 +5,5 @@ O scan de vazamento de dados me retorna um arquivo csv com todos os emails e sen
 O arquivo fp_filter_dataleak.py automatiza a verificação de falsos-positivos, logando com todos os logins fornecidos pelo scan.
 
 !!!---ESSA AUTOMATIZAÇÃO ESTÁ EM TESTES---!!!
+
 Use em ambientes controlados para evitar bloqueios.
