@@ -1,10 +1,9 @@
 from bbot.scanner import Scanner, Preset
 async def main():
     scan = Scanner(
-        'prodepa.pa.gov.br',
+        'target',
         preset=Preset.from_yaml_file(
-            #"/home/sec/Documentos/ImpBBOT/BBOT_implementation/scan_domain.yml"
-            "/home/teste/Documentos/BBOT_implementation/presets/scan_dataleak.yml"
+            "caminho"
         )
     )
     async for event in scan.async_start():
