@@ -4,15 +4,15 @@ import csv
 import time
 
 #Servidor IMAP
-IMAP_SERVER = "mail.prodepa.pa.gov.br" 
+IMAP_SERVER = "servidor" 
 IMAP_PORT = 993  # Porta padrão para IMAP com SSL
 
 # Arquivo de entrada com as credenciais
-INPUT_CSV_FILE = "/home/teste/Documentos/BBOT_implementation/scans_tratados/logins_prodepa.csv"
+INPUT_CSV_FILE = "caminho"
 
 # Arquivos de saída para registrar os resultados
-VALID_CREDS_FILE = "/home/teste/Documentos/BBOT_implementation/fp_logins_dataleak/credenciais_validas.txt"
-INVALID_CREDS_FILE = "/home/teste/Documentos/BBOT_implementation/fp_logins_dataleak/credenciais_invalidas.txt"
+VALID_CREDS_FILE = "caminho"
+INVALID_CREDS_FILE = "caminho"
 
 # Atraso para evitar bloqueios de IP/conta.
 DELAY_BETWEEN_ATTEMPTS = 20 # segundos
