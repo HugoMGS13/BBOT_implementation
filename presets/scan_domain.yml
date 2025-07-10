@@ -3,11 +3,11 @@ description: "Scan de explora\xE7\xE3o profunda de dom\xEDnios"
 config:
   modules:
     zoomeye:
-      api_key: 45Be80a8-912f-a32dc-9164-5375b8b587a
+      api_key: 
     virustotal:
-      api_key: bb31abaf71e50be453a44ba6076b7c864aafb3c686f596b5a908c504fc025de5
+      api_key: 
     ipstack:
-      api_key: 0817f71b7638bb72edc683120b6f89f1
+      api_key: 
   dns:
     threads: 25
     brute_threads: 1000
@@ -25,7 +25,6 @@ modules:
 - pgp
 - shodan_dns
 - shodan_idb
-#output_dir: "/home/sec/Documentos/ImpBBOT/BBOT_implementation/scans"
-output_dir: "/home/teste/Documentos/BBOT_implementation/scans"
+output_dir: 
 output_modules:
 - neo4j

@@ -3,7 +3,7 @@ description: "Scan de explora\xE7\xE3o de bases de dados buscando vazamentos de 
 config:
   modules:
     dehashed:
-      api_key: 1SS44Jqy/hZD5IfQgDZ9HX4VkCJiM3f2b/QUt6xFreRN2LHNmpVGOMs=
+      api_key:
 modules:
 - baddns
 - dehashed
